@@ -1,0 +1,31 @@
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Güvenilen Siteler</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png">
+    <style>
+        html, body {
+            margin: 0;
+        }
+    </style>
+    <script>
+        // HTTPS Sorunu Fix
+        if (document.URL.startsWith('http://')) {
+            window.location.href = document.URL.replace('http://','https://');
+        }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V14LRNC3RR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-V14LRNC3RR');
+    </script>
+</head>
+<body>
+    <iframe src="https://ogedays.net/vip/index.html" width="100%" height="100%" frameborder="0" style="border: none;"></iframe>
+</body>
+</html>
